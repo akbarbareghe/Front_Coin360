@@ -52,10 +52,17 @@ nav img{
 }
 
 .beta{
+    
+}
+.beta::after{
     background-color: #5c8456;
     clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
     padding: 5px 10px 5px 20px;
     text-align: center; 
+    content: "Beta";
+}
+.beta::after:hover{
+    color: #fff;
 }
 
 
