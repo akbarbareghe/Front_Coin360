@@ -2,67 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: #1d1f1e;
 }
 
-.d-flex{
-    display: flex;
+
+
+.d-grid {
+    display: grid;
 }
 
-.w-100{
-    width: 100%;
+.container-app {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 5.6vw 40px 50px 45px auto;
 }
 
-ul{
-    margin-left: 10px;
+.banner{
+    background-color: aqua ;
 }
-
-ul li{
-    list-style-type: none;
-    color: #dbdada;
-    display: inline-block;
-    margin-left: 10px;
-    transition: color .2s;
+.menu{
+    background-color: blue;
 }
-
-ul li:hover{
-    cursor: pointer;
-    color:#8cbf84;
+.watch-list{
+    background-color: blueviolet;
 }
-
-.banner img{
-    width: 100%;
-    height: 5.6vw;
+.filters{
+    background-color: brown;
 }
-
-nav{
-    display: flex;
-    height: 40px;
-    background-color: #2a2b2b;
-    padding: 5px;
-    align-items: center;
+.cryptos{
+    background-color: green;
 }
-
-nav img{
-    width: 15vh;
-}
-
-.beta{
-    
-}
-.beta{
-    background-color: #5c8456;
-    clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
-    padding: 5px 10px 5px 20px;
-    text-align: center; 
-    content: "Beta";
-}
-
-
-
-
-
