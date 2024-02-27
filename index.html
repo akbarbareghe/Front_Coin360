@@ -7,7 +7,8 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>COIN360 | Cryptocurrency Prices, Live Heatmap & Market Caps.</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/media-queries.css"> -->
+    <link rel="stylesheet" href="css/media-queries.css">
+    <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,9 @@
 
     <div class="container-app">
         <!-- banner -->
-        <div class="banner">banner</div>
+        <div id="banner">banner
+            <button class="btn-close-banner" onclick="hideTag()">X</button>
+        </div>
 
         <!-- navbar -->
         <nav>
@@ -34,11 +37,20 @@
 
         <div class="container-cryptos">
 
-            <!-- cryptos-filters -->
-            <!-- <div class="cryptos-filters">filters</div> -->
+            <div class="container-cryptos-left">
 
-            <!-- cryptos-price -->
-            <!-- <div class="cryptos_price">Prices</div> -->
+                <!-- cryptos-filters -->
+                <div class="cryptos-filters">filters</div>
+
+                <!-- cryptos-price -->
+                <div class="cryptos_price">Prices</div>
+
+            </div>
+            <div class="container-cryptos-right">right</div>
+
+
+
+
 
             <!-- cryptos-news -->
             <!-- <div class="cryptos_price">Prices</div> -->

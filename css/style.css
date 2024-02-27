@@ -9,22 +9,33 @@ body {
     background-color: #1d1f1e;
 }
 
-.d-flex {
-    display: flex;
-}
-
-.d-grid {
-    display: grid;
-}
-
 .container-app {
     display: grid;
     height: 100vh;
-    grid-template-rows: 5.6vw 40px 50px  auto;
+    grid-template-rows: 5.6vw 40px 50px auto;
 }
 
-.banner {
+#banner {
     background-color: aqua;
+}
+
+.btn-close-banner{
+    z-index: 100;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+}
+
+.btn-close-banner:hover{
+    cursor: pointer;
+}
+
+.btn-close-banner:active{
+    
 }
 
 /* -------------------------------------- */
@@ -77,9 +88,17 @@ nav {
 /* ----------------------------- */
 /* container-cryptos */
 .container-cryptos {
+    display: grid;
+    grid-template-columns: auto 200px;
     background-color: green;
 }
 
-.filters {
-    background-color: brown;
+.container-cryptos-left {
+    display: grid;
+    grid-template-rows: 45px auto;
+    background-color: aliceblue;
+}
+
+.cryptos-filters {
+    background-color: aquamarine;
 }
