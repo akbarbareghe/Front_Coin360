@@ -9,6 +9,10 @@ body {
     background-color: #1d1f1e;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container-app {
     display: grid;
     height: 100vh;
@@ -89,7 +93,7 @@ nav {
 /* container-cryptos */
 .container-cryptos {
     display: grid;
-    grid-template-columns: auto 200px;
+    grid-template-columns: 85vw 15vw;
     background-color: green;
 }
 
@@ -102,3 +106,26 @@ nav {
 .cryptos-filters {
     background-color: aquamarine;
 }
+
+.cryptos_price {
+    background-image: url(../images/crypto_price.png);
+    background-origin: border-box;
+    background-size: cover;
+}
+
+/* -------------------------------------- */
+.hide-container-cryptos-right{
+    position: relative;
+    top :50%;
+    left: -5px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+    background-color: black;
+}
+
+.hide-container-cryptos-right:hover{
+    cursor: pointer;
+}
+
+
