@@ -20,7 +20,8 @@ a{
 }
 
 #banner {
-    background-color: aqua;
+    background-image: url("../images/Shan-2300x130-px.gif");
+    background-size: cover;
 }
 
 .btn-close-banner{
@@ -36,10 +37,6 @@ a{
 
 .btn-close-banner:hover{
     cursor: pointer;
-}
-
-.btn-close-banner:active{
-    
 }
 
 /* -------------------------------------- */
