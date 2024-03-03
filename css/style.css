@@ -9,6 +9,42 @@ body {
     background-color: #1d1f1e;
 }
 
+.nav-left-ul{
+    align-self: center;
+}
+
+.nav-left-ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+    transition: color 0.2s;
+}
+
+.nav-left-ul li:hover{
+    cursor: pointer;
+    color: green;
+}
+
+span{
+    color: #fff;
+    align-self: center;
+    margin-left: 10px;
+    background-color: #5c8456;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
+    padding: 5px 10px 5px 20px;
+    text-align: center; 
+}
+
+span:hover{
+    cursor: pointer;
+}
+.stake-ufc{
+    padding: 5px;
+    background-color: black;
+    margin: 5px 0px; 
+    margin-left: 8px;
+}
 a{
     text-decoration: none;
 }
@@ -44,13 +80,25 @@ a{
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #2a2b2b;;
 }
 
 .nav-left {
     height: 100%;
-    background-color: blanchedalmond;
-    width: 200px;
+    display: flex;
+}
+
+.nav-left i{
+    color: #fff;
+    align-self: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #404141;
+    display: none;
+}
+
+.nav-left-logo{
+    padding: 10px;
 }
 
 .nav-right {
