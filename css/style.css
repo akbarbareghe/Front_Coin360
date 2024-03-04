@@ -100,12 +100,62 @@ nav {
 .nav-left-logo{
     padding: 10px;
 }
-
+/* nav-right */
 .nav-right {
     height: 100%;
-    background-color: chocolate;
-    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+.container-log-in{
+    display: flex;
+    background-color: #7ec17f;
+    color: #262626;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.fa-user::after{
+    content: " Log In";
+}
+.container-log-in:hover{
+    cursor: pointer;
+}
+
+.container-language{
+    display: flex;
+    align-items: center;
+    background-color: #404141;
+    color: #7ec17f;
+    margin: 2px;
+    padding: 5px;
+}
+.container-language:hover{
+    cursor: pointer;
+}
+.fa-globe::after{
+    content: " USD";
+}
+.container-search{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background: rgba(29,31,30,.7);
+}
+.fa-search{
+    color: #888686;
+    margin-right: 5px;
+    background-color: rgba(29,31,30,.7);;
+}
+.input-search{
+    border: none;
+    background-color: #3b3b3b;
+}
+.input-search:focus{
+    border: none;
+}
+
 
 /* --------------------------------------- */
 /* watch-list */
