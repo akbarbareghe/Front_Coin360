@@ -167,26 +167,39 @@ nav {
 /* watch-list */
 .watch-list {
     display: flex;
-    justify-content: space-between;
-    background-color: blueviolet;
+    justify-content: flex-start;
+    background-color: #000;
+    align-items: center;
+}
+.watch-list-left:hover{
+    cursor: pointer;
 }
 
-.watch-list-left {
-    height: 100%;
-    width: 100px;
-    background-color: cadetblue;
+.watch-list i{
+    color: #8cf17c;
+    margin-left: 10px;
 }
 
-.watch-list-center {
+
+.watch-list-left{
+    background-color: #1d1f1e;
     height: 100%;
-    width: 100px;
-    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
-.watch-list-right {
-    height: 100%;
-    width: 200px;
-    background-color: cadetblue;
+.watch-list-left i {
+    color: #5c8456;
+}
+
+.watch-list i:hover {
+    cursor: pointer;
+}
+
+.watch-list-left a {
+    color: #888686;
+    margin-left: 8px;
 }
 
 

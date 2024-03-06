@@ -9,6 +9,12 @@
     .nav-left-span{
         display: none;
     }
+    .container-language{
+        display: none;
+    }
+    .container-search{
+        display: none;
+    }
 }
 
 
