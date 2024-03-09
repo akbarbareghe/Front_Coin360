@@ -26,7 +26,7 @@ body {
     color: green;
 }
 
-span{
+.nav-left-span{
     color: #fff;
     align-self: center;
     margin-left: 10px;
@@ -218,14 +218,73 @@ nav {
 }
 
 .cryptos-filters {
-    background-color: aquamarine;
+    background-color: #1d1f1e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-filters-left{
+    display: flex;
 }
 
 .cryptos_price {
-    background-image: url(../images/crypto_price.png);
+    /* background-image: url(../images/crypto_price.png); */
     background-origin: border-box;
     background-size: cover;
 }
+
+
+.performance{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    align-items: center;
+    background-color: #404141;
+    color: #888686;
+}
+
+.performance a{
+    color: #888686;
+}
+
+.performance i{
+    margin-left: 4px;
+}
+
+.performance a span{
+    color: #fff
+}
+
+.block-size{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+    align-items: center;
+    background-color: #404141;
+    color: #888686;
+    margin-left: 10px;
+}
+.block-size a{
+    color: #888686;
+}
+.block-size i{
+    margin-left: 4px;
+}
+
+.block-size a span{
+    color: #fff
+}
+
+.crypto-filters-right{
+    display: flex;
+    align-items: center;
+}
+
+.fa-flash{
+    background-color: #8cf17c;
+    padding: 8px;
+}
+
 
 /* -------------------------------------- */
 .hide-container-cryptos-right{
