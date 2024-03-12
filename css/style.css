@@ -283,8 +283,51 @@ nav {
 .fa-flash{
     background-color: #8cf17c;
     padding: 8px;
+    width: 30px;
 }
 
+.fa-exclamation{
+    text-align: center;
+    background-color: #8cf17c;
+    padding: 8px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+.fa-list{
+    color: #9b9b9b;
+    text-align: center;
+    background-color: #000;
+    padding: 10px;
+    width: 30px;
+}
+
+.share-map{
+    display: flex;
+    color: #a2dd99;
+    background-color: #404141;
+    height: 100%;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+.share-map a{
+    color: #a2dd99;
+    margin-left: 5px;
+}
+
+.fa-flash:hover{
+    cursor: pointer;
+}
+.fa-exclamation:hover{
+    cursor: pointer;
+}
+.fa-list:hover{
+    cursor: pointer;
+}
+.share-map:hover{
+    cursor: pointer;
+}
 
 /* -------------------------------------- */
 .hide-container-cryptos-right{
