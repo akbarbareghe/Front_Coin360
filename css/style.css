@@ -9,11 +9,11 @@ body {
     background-color: #1d1f1e;
 }
 
-.nav-left-ul{
+.nav-left-ul {
     align-self: center;
 }
 
-.nav-left-ul li{
+.nav-left-ul li {
     list-style-type: none;
     display: inline-block;
     color: #fff;
@@ -21,31 +21,33 @@ body {
     transition: color 0.2s;
 }
 
-.nav-left-ul li:hover{
+.nav-left-ul li:hover {
     cursor: pointer;
     color: green;
 }
 
-.nav-left-span{
+.nav-left-span {
     color: #fff;
     align-self: center;
     margin-left: 10px;
     background-color: #5c8456;
-    clip-path: polygon(0 0,100% 0,100% 100%,0 100%,14px 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 14px 50%);
     padding: 5px 10px 5px 20px;
-    text-align: center; 
+    text-align: center;
 }
 
-span:hover{
+span:hover {
     cursor: pointer;
 }
-.stake-ufc{
+
+.stake-ufc {
     padding: 5px;
     background-color: black;
-    margin: 5px 0px; 
+    margin: 5px 0px;
     margin-left: 8px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -60,7 +62,7 @@ a{
     background-size: cover;
 }
 
-.btn-close-banner{
+.btn-close-banner {
     z-index: 100;
     background-color: rgb(216, 216, 216);
     border: none;
@@ -71,7 +73,7 @@ a{
     font-size: 10px;
 }
 
-.btn-close-banner:hover{
+.btn-close-banner:hover {
     cursor: pointer;
 }
 
@@ -80,7 +82,8 @@ a{
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: #2a2b2b;;
+    background-color: #2a2b2b;
+    ;
 }
 
 .nav-left {
@@ -88,7 +91,7 @@ nav {
     display: flex;
 }
 
-.nav-left i{
+.nav-left i {
     color: #fff;
     align-self: center;
     font-size: 20px;
@@ -97,9 +100,10 @@ nav {
     display: none;
 }
 
-.nav-left-logo{
+.nav-left-logo {
     padding: 10px;
 }
+
 /* nav-right */
 .nav-right {
     height: 100%;
@@ -107,7 +111,7 @@ nav {
     flex-direction: row-reverse;
 }
 
-.container-log-in{
+.container-log-in {
     display: flex;
     background-color: #7ec17f;
     color: #262626;
@@ -116,14 +120,16 @@ nav {
     margin: 5px;
     border-radius: 5px;
 }
-.fa-user::after{
+
+.fa-user::after {
     content: " Log In";
 }
-.container-log-in:hover{
+
+.container-log-in:hover {
     cursor: pointer;
 }
 
-.container-language{
+.container-language {
     display: flex;
     align-items: center;
     background-color: #404141;
@@ -131,24 +137,30 @@ nav {
     margin: 2px;
     padding: 5px;
 }
-.container-language:hover{
+
+.container-language:hover {
     cursor: pointer;
 }
-.fa-globe::after{
+
+.fa-globe::after {
     content: " USD";
 }
-.container-search{
+
+.container-search {
     display: flex;
     align-items: center;
     padding: 5px;
-    background: rgba(29,31,30,.7);
+    background: rgba(29, 31, 30, .7);
 }
-.fa-search{
+
+.fa-search {
     color: #888686;
     margin-right: 5px;
-    background-color: rgba(29,31,30,.7);;
+    background-color: rgba(29, 31, 30, .7);
+    ;
 }
-.input-search{
+
+.input-search {
     color: #888686;
     border: none;
     box-sizing: border-box;
@@ -156,7 +168,8 @@ nav {
     padding: 5px;
     width: 100px;
 }
-.input-search:focus{
+
+.input-search:focus {
     border: none;
     outline: 0;
     box-sizing: border-box;
@@ -171,17 +184,18 @@ nav {
     background-color: #000;
     align-items: center;
 }
-.watch-list-left:hover{
+
+.watch-list-left:hover {
     cursor: pointer;
 }
 
-.watch-list i{
+.watch-list i {
     color: #8cf17c;
     margin-left: 10px;
 }
 
 
-.watch-list-left{
+.watch-list-left {
     background-color: #1d1f1e;
     height: 100%;
     display: flex;
@@ -207,8 +221,7 @@ nav {
 /* container-cryptos */
 .container-cryptos {
     display: grid;
-    grid-template-columns: 85vw 15vw;
-    background-color: green;
+    grid-template-columns: 80vw 20vw;
 }
 
 .container-cryptos-left {
@@ -223,7 +236,7 @@ nav {
     justify-content: space-between;
 }
 
-.crypto-filters-left{
+.crypto-filters-left {
     display: flex;
 }
 
@@ -234,7 +247,7 @@ nav {
 }
 
 
-.performance{
+.performance {
     display: flex;
     flex-direction: row-reverse;
     padding: 5px;
@@ -243,19 +256,19 @@ nav {
     color: #888686;
 }
 
-.performance a{
+.performance a {
     color: #888686;
 }
 
-.performance i{
+.performance i {
     margin-left: 4px;
 }
 
-.performance a span{
+.performance a span {
     color: #fff
 }
 
-.block-size{
+.block-size {
     display: flex;
     flex-direction: row-reverse;
     padding: 5px;
@@ -264,29 +277,31 @@ nav {
     color: #888686;
     margin-left: 10px;
 }
-.block-size a{
+
+.block-size a {
     color: #888686;
 }
-.block-size i{
+
+.block-size i {
     margin-left: 4px;
 }
 
-.block-size a span{
+.block-size a span {
     color: #fff
 }
 
-.crypto-filters-right{
+.crypto-filters-right {
     display: flex;
     align-items: center;
 }
 
-.fa-flash{
+.fa-flash {
     background-color: #8cf17c;
     padding: 8px;
     width: 30px;
 }
 
-.fa-exclamation{
+.fa-exclamation {
     text-align: center;
     background-color: #8cf17c;
     padding: 8px;
@@ -294,7 +309,7 @@ nav {
     width: 30px;
 }
 
-.fa-list{
+.fa-list {
     color: #9b9b9b;
     text-align: center;
     background-color: #000;
@@ -302,7 +317,7 @@ nav {
     width: 30px;
 }
 
-.share-map{
+.share-map {
     display: flex;
     color: #a2dd99;
     background-color: #404141;
@@ -311,40 +326,90 @@ nav {
     padding: 5px;
     margin-left: 5px;
 }
-.share-map a{
+
+.share-map a {
     color: #a2dd99;
     margin-left: 5px;
 }
 
-.fa-flash:hover{
+.fa-flash:hover {
     cursor: pointer;
 }
-.fa-exclamation:hover{
+
+.fa-exclamation:hover {
     cursor: pointer;
 }
-.fa-list:hover{
+
+.fa-list:hover {
     cursor: pointer;
 }
-.share-map:hover{
+
+.share-map:hover {
     cursor: pointer;
 }
 
 /* -------------------------------------- */
-.hide-container-cryptos-right{
+.hide-container-cryptos-right {
     position: relative;
-    top :50%;
+    top: 50%;
     left: -15px;
     border-radius: 50%;
     padding: 5px;
     color: #fff;
     background-color: black;
     border: none;
-    width:30px;
+    width: 30px;
     height: 30px;
 }
 
-.hide-container-cryptos-right:hover{
+.hide-container-cryptos-right:hover {
     cursor: pointer;
 }
 
+.live-news-feed {
+    margin: -25px 10px 0px 10px;
+}
 
+.news-title {
+    height: 40px;
+    background-color: #404141;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news-title i {
+    color: #7ec17f;
+}
+
+.news-list{
+    height: 370px;
+    background-color: #000;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.news a{
+    color: #e0e0e0;
+}
+
+.news-time-subject{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #888686;
+}
+
+.news-subject{
+    color: orange!important;
+    font-size: 12px;
+}
+
+.news-time{
+    color: rgb(122, 121, 121)!important;
+    font-size: 12px;
+}

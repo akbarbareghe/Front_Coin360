@@ -15,7 +15,7 @@ function resizeDiv() {
         i=1;
     }
     else if(i==1){
-        container_cryptos.style.gridTemplateColumns = "85vw 15vw";
+        container_cryptos.style.gridTemplateColumns = "80vw 20vw";
         btn_hide.textContent = ">";
         i=0;
     }
